@@ -2,6 +2,7 @@ body
 {
     padding-top: 60px;
 }
+h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
 /*Main Navbar*/
 .navbar
 {
