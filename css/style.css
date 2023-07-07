@@ -179,16 +179,13 @@ h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
     height: 550px;
     
 }
-.features .feat:hover
+.features .feat
 {
-    border: 1px solid #333;
+    border:none;
     padding-bottom: 20px;
     background: #FFF;
     border-radius: 15px;
-    -webkit-transition:all 0.5s ease-in-out;
-    -moz-transition:all 0.5s ease-in-out;
-    -o-transition:all 0.5s ease-in-out;
-    transition:all 0.5s ease-in-out;
+    box-shadow: 14px 14px 14px -4px #999;
 }
 .features h1
 {
@@ -293,7 +290,8 @@ h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
 }
 .price-tabel .price-box
 {
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #FFF;
     border: 1px solid #DDD;
     margin-bottom: 15px;
@@ -330,8 +328,9 @@ h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
 }
 .price-tabel .price-box ul
 {
-    font-size: 16px;
-    line-height: 250%;
+    font-size: 20px;
+    line-height: 200%;
+    font-weight: bold;
 }
 .price-tabel .price-box a
 {
@@ -373,10 +372,10 @@ h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
     height: 150px;
     margin-bottom: 15px;
     filter: gray;
-    -webkit-transition:all 1.5s ease-in-out;
-    -moz-transition:all 1.5s ease-in-out;
-    -o-transition:all 1.5s ease-in-out;
-    transition:all 1.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
@@ -461,10 +460,10 @@ h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
 }
 .statistics .stat
 {
-    -webkit-transition:all 1s ease-in-out;
-    -moz-transition:all 1s ease-in-out;
-    -o-transition:all 1s ease-in-out;
-    transition:all 1s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
     margin-bottom: 40px;
 }
 .statistics .stat:hover
