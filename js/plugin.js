@@ -28,8 +28,38 @@ $(document).ready(function(){
 
     colorLi.click(function(){
       $("link[href*='theme']").attr("href",$(this).attr('data-value'));
-      // console.log($(this).attr('data-value'))
+      // console.log($(this).attr('data-value'));
     });
 
-    
 });
+
+
+    // Loading Screen
+    $(window).on("load", function()
+    {
+      // Shoe The Scroll
+      
+
+      // Loading Elements
+
+      $(".loading-overlay .spinner").fadeOut(2000,
+
+        function(){
+
+          $(this).parent().fadeOut(2000,
+
+            function(){
+              $("body").css("overflow","auto");
+
+              $(this).remove();
+
+            });
+        });
+    });
+    // $(window).on("load", function()
+    // {
+    //   // Loading Elements
+
+    //   $(".loading-overlay, .loading-overlay .spinner").fadeOut(2000); 
+    // });
+    
