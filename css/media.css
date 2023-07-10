@@ -14,10 +14,39 @@
         width: 100%;
         height: 500px;
     }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, 
+    .navbar-inverse .navbar-nav > .open > a:focus {background-color: #616161;}
+    .navbar-inverse .navbar-nav > .open > a {border:none;}
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {background-color: #544e4e;}
     .about
     {
-        height: 300px;
-        padding-top: 110px;
+        height: 140px;
+        padding-top: 15px;
+    }
+    .about-me
+    {
+        margin-bottom:50px;
+    }
+    .about-me .border-img
+    {
+        margin: 0 auto 20px;
+    }
+    .about-me h2
+    {
+        text-align:center;
+    }
+    .about-me .detels P
+    {
+        margin-top: 6px
+    }
+    .about-me button
+    {
+        width: 300px;
+        margin-left: 157.5px;
     }
     .features
     {
@@ -29,6 +58,12 @@
         width: 350px;
         height: 300px; 
         padding: 0 25px;
+    }
+    .price-tabel .price-box
+    {
+        width: 300px;
+        margin: 15px auto;
+        box-shadow: 14px 14px 14px -4px #BBB;
     }
 
 }

@@ -2,7 +2,12 @@ $(document).ready(function(){
     
     $('.carousel').carousel({
 
-      interval: 5000
+      interval: 4000
+      
+    });
+    $('.testim').carousel({
+
+      interval: 3000
       
     });
     
