@@ -786,3 +786,30 @@ h1 h2 h3 h4 h5 .lead { font-family: 'Droid Sans', sans-serif;}
     }
   }
 /* End Loading */
+/* Start Scroii Top */
+#scroll-top
+{
+    width: 70px;
+    height: 65px;
+    line-height: 90px;
+    border-radius: 50%;
+    background-color: rgba(526,52,25,0.4);
+    color: #FFF;
+    text-align: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+#scroll-top:hover
+{
+    background-color: #E41B17;
+}
+/* End Scroii Top */

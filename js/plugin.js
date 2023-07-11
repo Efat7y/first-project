@@ -31,6 +31,29 @@ $(document).ready(function(){
       // console.log($(this).attr('data-value'));
     });
 
+    // Chaching The Scroll Top Element
+    var scrollButton = $("#scroll-top");
+    $(window).scroll(function()
+    {
+      $(this).scrollTop() >= 700? scrollButton.show() : scrollButton.hide();
+      
+      // if ($(this).scrollTop() >= 600)
+      // {
+      //   scrollButton.show();
+      // }
+      // else
+      // {
+      //   scrollButton.hide();
+      // }
+      
+      });
+      // Click On Button To Scroll Top
+        scrollButton.click(function()
+        {
+          $("html,body").animate({scrollTop : 0}, 500);
+    });
+
+
 });
 
 
@@ -42,11 +65,11 @@ $(document).ready(function(){
 
       // Loading Elements
 
-      $(".loading-overlay .spinner").fadeOut(2000,
+      $(".loading-overlay .spinner").fadeOut(500,
 
         function(){
 
-          $(this).parent().fadeOut(2000,
+          $(this).parent().fadeOut(500,
 
             function(){
               $("body").css("overflow","auto");
